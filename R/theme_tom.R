@@ -17,6 +17,8 @@ theme_tom <- function (base_size = 11, base_family = "") {
       panel.grid.major = element_line(colour = "black", size = .05),
       plot.caption = element_text(size = rel(0.9), hjust = 0,
                                   vjust = 1,
-                                  margin = margin(t = half_line * 0.9))
+                                  margin = margin(t = half_line * 0.9)),
+      strip.background = element_rect(colour = "black", fill = "grey96",
+                                      size = .3)
     )
 }
