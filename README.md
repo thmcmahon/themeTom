@@ -17,4 +17,4 @@ mtcars %>%
   theme_tom() +
   labs(title = "mtcars plot of miles per gallon by horsepower")
 ```
-[[http://i.imgur.com/DmOTsJB.png|alt=example_graph]]
+![example graph](http://i.imgur.com/DmOTsJB.png)
