@@ -20,6 +20,7 @@ theme_tom <- function (base_size = 11, base_family = "") {
                                   margin = margin(t = half_line * 0.9)),
       strip.background = element_rect(colour = "black", fill = "grey96",
                                       size = .3),
-      axis.ticks = element_blank()
+      axis.ticks = element_blank(),
+      legend.title = element_blank()
     )
 }
