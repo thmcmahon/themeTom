@@ -21,6 +21,7 @@ theme_tom <- function (base_size = 11, base_family = "") {
       strip.background = element_rect(colour = "black", fill = "grey96",
                                       size = .3),
       axis.ticks = element_blank(),
-      legend.title = element_blank()
+      legend.title = element_blank(),
+      plot.margin = unit(c(t = 3, r = 3, b = 5, l = 5), units = "mm")
     )
 }
